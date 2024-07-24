@@ -32,7 +32,6 @@ body {
 
 .main-p-h h1 {
     color: white;
-    margin-bottom: -24px;
 }
 
 .main-p-h p {
@@ -48,7 +47,7 @@ body {
 .main-p-h button {
     border-radius: 10px;
     display: inline-block;
-    color: #50911b;
+    color: #2b4f0d;
     font-size: 16px;
     padding: 10px 27px;
     cursor: pointer;
@@ -57,4 +56,18 @@ body {
 .main-p-h button:hover {
     background-color: #A9BF97;
     color: black;
+}
+
+.fitted-p {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.specialh {
+    margin-bottom: 30px;
+}
+
+.specialh_alt {
+    margin-bottom: -21px;
 }
