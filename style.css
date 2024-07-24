@@ -1,11 +1,12 @@
 body { 
+    background-color: #30332E;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 .heading-menu {
     overflow: hidden;
-    background-color: #4A7856;
+    background-color: #89937C;
     padding: 20px 10px;
     text-align: center;
 }
@@ -15,11 +16,45 @@ body {
     color: black;
     padding: 12px;
     text-decoration: none;
-    font-size: 30px; 
-    border-radius: 4px;
+    font-size: 18px; 
+    border-radius: 10px;
 }
 
-.header a:hover {
-    background-color: #ddd;
+.heading-menu a:hover {
+    background-color: #A9BF97;
     color: black;
-  }
+}
+
+.main-p-h video {
+    border-radius: 20px;
+    margin-bottom: -24px;
+}
+
+.main-p-h h1 {
+    color: white;
+    margin-bottom: -24px;
+}
+
+.main-p-h p {
+    color: white;
+    padding: 21px;
+}
+
+.specialp {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.main-p-h button {
+    border-radius: 10px;
+    display: inline-block;
+    color: #50911b;
+    font-size: 16px;
+    padding: 10px 27px;
+    cursor: pointer;
+}
+
+.main-p-h button:hover {
+    background-color: #A9BF97;
+    color: black;
+}
