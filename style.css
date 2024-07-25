@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,800;1,800&display=swap');
+
 body { 
     background-color: #30332E;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Jost";
     margin: 0;
 }
 
@@ -25,12 +28,9 @@ body {
     color: black;
 }
 
-.main-p-h video {
-    border-radius: 20px;
-    margin-bottom: -24px;
-}
-
 .main-p-h h1 {
+    font-family: "JetBrains Mono";
+    font-size: 30px;
     color: white;
 }
 
@@ -42,6 +42,9 @@ body {
 .specialp {
     margin-top: 20px;
     margin-bottom: -10px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-p-h button {
@@ -50,12 +53,14 @@ body {
     color: #2b4f0d;
     font-size: 16px;
     padding: 10px 27px;
+    font-family: "Jost";
     cursor: pointer;
 }
 
 .main-p-h button:hover {
     background-color: #A9BF97;
     color: black;
+    font-family: "Jost";
 }
 
 .fitted-p {
@@ -70,4 +75,19 @@ body {
 
 .specialh_alt {
     margin-bottom: -21px;
+}
+
+.videoandimg {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    right: 50px;
+    margin-bottom: -24px;
+}
+
+.main-p-h a {
+    text-decoration: underline;
+    color: white;
+    
 }
