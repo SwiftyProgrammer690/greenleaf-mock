@@ -5,6 +5,7 @@ body {
     background-color: #30332E;
     font-family: "Jost";
     margin: 0;
+    min-height: 100vh;
 }
 
 .heading-menu {
@@ -14,9 +15,38 @@ body {
     text-align: center;
 }
 
+.footer-down {
+    overflow: hidden;
+    background-color: #151614;
+    margin-top: 20px;
+    padding: 30px 20px;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-down a {
+    line-height: 25px;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    border-radius: 10px;
+    margin-top: 0; /* take available whitespace */
+    margin-bottom: -10px;      /* remove bottom whitespace */
+    height: 100px;  
+}
+
+.footer-down a:hover {
+    background-color: #838a7d;
+    color: black;
+}
+
 .heading-menu a {
     line-height: 25px;
-    color: black;
+    color: white;
     padding: 12px;
     text-decoration: none;
     font-size: 18px; 
