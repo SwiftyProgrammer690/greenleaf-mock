@@ -159,3 +159,29 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Space between cards */
+    margin: 20px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff; /* Optional: To distinguish cards from the background */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card .description {
+    padding: 15px;
+}
