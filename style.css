@@ -5,7 +5,8 @@ body {
     background-color: #30332E;
     font-family: "Jost";
     margin: 0;
-    min-height: 100vh;
+    height: 100%;
+    margin: 0;
 }
 
 .heading-menu {
@@ -21,10 +22,6 @@ body {
     margin-top: 20px;
     padding: 30px 20px;
     color: white;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }
 
 .footer-down a {
@@ -37,6 +34,12 @@ body {
     margin-top: 0; /* take available whitespace */
     margin-bottom: -10px;      /* remove bottom whitespace */
     height: 100px;  
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .footer-down a:hover {
@@ -119,5 +122,40 @@ body {
 .main-p-h a {
     text-decoration: underline;
     color: white;
+}
+
+.main-p-h {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
     
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 650px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+}
+
+button {
+    width: 650px;
+    padding: 10px;
+    background-color: #316729;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
 }
